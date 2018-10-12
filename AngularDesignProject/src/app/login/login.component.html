@@ -1,3 +1,8 @@
 <p>
-  login works!
-</p>
+  Please Enter your Login Details.
+</p><br>
+<p>Username:</p><input [(ngModel)] = "username" ><br>
+<p>Password:</p><input [(ngModel)] = "password" ><br>
+<button (click) = "login()">Login</button>
+<br>
+<p>{{loggedIn}}</p>

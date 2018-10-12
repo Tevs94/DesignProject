@@ -1,14 +1,7 @@
-export class PermissionList {
-
-  constructor(addUser: boolean, deleteUser: boolean, addSensor: boolean, editDescription: boolean) {
-    this.addUser = addUser;
-    this.deleteUser = deleteUser;
-    this.addSensor = addSensor;
-    this.editDescription = editDescription;
-  }
-
-  addUser: boolean;
-  deleteUser: boolean;
-  addSensor: boolean;
-  editDescription: boolean;
+export enum Permission {
+  addUser = 0,
+  deleteUser,
+  addSensor,
+  editDescription
 }
+// This list must match the list in the database
