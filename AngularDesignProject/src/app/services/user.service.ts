@@ -1,7 +1,8 @@
 import {Injectable} from '@angular/core';
 import {User} from '../shared/models/user';
-import {HttpClient} from '@angular/common/http';
-import {Permission} from "../shared/models/permission";
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {Permission} from '../shared/models/permission';
+import Any = jasmine.Any;
 
 @Injectable({
   providedIn: 'root'
@@ -10,14 +11,15 @@ export class UserService {
 
   currentUser: User | null;
 
-  constructor(private httpClient:HttpClient) {
+  constructor(private http: HttpClient) {
     this.currentUser = null;
   }
 
   Login(username, password) {
-    let user = this.http.get('/api/login')
+    const body = `username=${username}&password=${password}`;
+    const options = {headers: new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded')};
 
-    this.currentUser = new User(user.username, 'admin', adminPermissions);
+    return this.http.post('http://localhost:3000/api/login', body.toString(), options);
   }
 
   CreateUser(username: String, password: String, permissions: Array<Permission>) {

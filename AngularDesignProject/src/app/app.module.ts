@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChooseDataComponent } from './choose-data/choose-data.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    ChooseDataComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
