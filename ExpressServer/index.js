@@ -1,5 +1,4 @@
-//const Influx = require('../../')
-
+const influx = require('influx')
 const express = require('express')
 const http = require('http')
 const os = require('os')
@@ -7,6 +6,7 @@ const mysql = require('mysql')
 const bodyParser = require('body-parser')
 const app = express()
 
+//Middleware Settings
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -14,18 +14,32 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-
+//SQL
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "root",
     database: "designproject"
 });
-
 con.connect(function(err) {
     if (err) throw err
 });
 
+//InfluxDB
+const influxClient = new influx.InfluxDB({
+    database: 'sensorData',
+    host: 'localhost:8308',
+})
+/*
+influxClient.query(`
+SELECT time,kWh FROM energyData
+`).then(result => {
+    for(i in result)
+        console.log(result[i].kWh)
+}).catch(error => console.log("ERROR:" + error))
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//RESTful API
 app.get('/api/user/:id', function( req, res)  {
     let user = null
     console.log("Get User")

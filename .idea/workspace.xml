@@ -1,57 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ExpressServer/index.js" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/ExpressServer/index.js" line="45" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c01f54-a7ec-46cc-b847-b74a9adb57b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularDesignProject/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularDesignProject/src/app/services/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpressServer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/lib/types/json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/lib/browser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/lib/compat/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/depd/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/http-errors/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/http-errors/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/http-errors/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/http-errors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/setprototypeof/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/setprototypeof/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/setprototypeof/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/node_modules/raw-body/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpressServer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExpressServer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressServer/package.json" afterDir="false" />
     </list>
@@ -68,26 +23,28 @@
     <session id="-557835007">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="6" />
-          <entry key="TsLintLanguageService" value="6" />
+          <entry key="Angular2LanguageService" value="8" />
+          <entry key="TsLintLanguageService" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="9" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="json" value="4" />
           <entry key="ts" value="16" />
         </counts>
@@ -97,7 +54,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="9" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="TypeScript" value="16" />
         </counts>
       </usages-collector>
@@ -105,7 +62,7 @@
         <counts>
           <entry key="css" value="93" />
           <entry key="html" value="470" />
-          <entry key="js" value="2880" />
+          <entry key="js" value="3527" />
           <entry key="json" value="15" />
           <entry key="ts" value="3716" />
         </counts>
@@ -115,7 +72,7 @@
           <entry key="CSS" value="93" />
           <entry key="HTML" value="470" />
           <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="2880" />
+          <entry key="JavaScript" value="3527" />
           <entry key="TypeScript" value="3716" />
         </counts>
       </usages-collector>
@@ -126,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/services/user.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="425">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -138,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="374">
               <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -160,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/choose-data/choose-data.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="20" />
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -174,16 +131,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpressServer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="246">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -208,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -246,7 +203,6 @@
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/shared/models/user.ts" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ExpressServer/index.js" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/services/user.service.ts" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.html" />
@@ -254,6 +210,7 @@
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/ExpressServer/index.js" />
       </list>
     </option>
   </component>
@@ -364,6 +321,12 @@
               <item name="DesignProject" type="462c0819:PsiDirectoryNode" />
               <item name="ExpressServer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ExpressServer" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -414,12 +377,14 @@
       <workItem from="1539181865997" duration="4104000" />
       <workItem from="1539253184454" duration="8536000" />
       <workItem from="1539295410165" duration="11155000" />
-      <workItem from="1539444981233" duration="12854000" />
+      <workItem from="1539444981233" duration="13453000" />
+      <workItem from="1539612293680" duration="599000" />
+      <workItem from="1539639183451" duration="2723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46022000" />
+    <option name="totallyTimeSpent" value="49943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,7 +399,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31315395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31315395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,7 +412,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32851985" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29836065" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29836065" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -485,13 +450,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/shared/models/user.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -501,13 +460,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,54 +472,19 @@
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressServer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/services/user.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="425">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="374">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -584,14 +502,28 @@
     <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/choose-data/choose-data.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="20" />
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.html">
+    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/navbar/navbar.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -602,6 +534,27 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDesignProject/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressServer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
         </state>
       </provider>
     </entry>
