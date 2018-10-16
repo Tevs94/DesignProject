@@ -21,6 +21,7 @@ export class LoginComponent {
           console.log(response.Error);
         } else {
           this.userService.currentUser = new User(response.username, response.password, response.permissions);
+          this.userService.currentUser.id = response.id;
           this.loggedInText = 'Logged in as ' + this.userService.currentUser.username;
           this.isLoggedIn = true;
         }

@@ -30,19 +30,11 @@ const influxClient = new influx.InfluxDB({
     database: 'sensorData',
     host: 'localhost:8308',
 })
-/*
-influxClient.query(`
-SELECT time,kWh FROM energyData
-`).then(result => {
-    for(i in result)
-        console.log(result[i].kWh)
-}).catch(error => console.log("ERROR:" + error))
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 //RESTful API
 app.get('/api/user/:id', function( req, res)  {
     let user = null
-    console.log("Get User")
     const userQuery = `SELECT users.username, users.password FROM users
                        WHERE users.id = ${req.params.id}`
     con.query(userQuery, function (err, result, fields) {
@@ -96,5 +88,33 @@ app.post('/api/login', function( req, res)  {
     });
 
 })
+
+app.get('/api/data', function( req, res) {
+
+    const sensorID = req.query.sensorID
+    const startTime = req.query.startTime //startTime and endTime in nanoseconds
+    const endTime = req.query.endTime
+    influxClient.query(`
+    SELECT * FROM energyData
+    WHERE sensorID = '${sensorID}'
+    AND time >= ${startTime}
+    AND time <= ${endTime}
+    `).then(result => {
+        let response = {data: [], errors: []}
+        for (let k in result) {
+            if (result[k].time != undefined)
+                response.data.push({
+                    sensorID: result[k].sensorID,
+                    sensorName: result[k].sensorName,
+                    time: result[k].time.getNanoTime(),
+                    kVA: result[k].kVA,
+                    kVarh: result[k].kVarh,
+                    kWh: result[k].kWh,
+                })
+        }
+        res.send(JSON.stringify(response))
+    }).catch(error => console.log("ERROR:" + error))
+})
+
 const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`Listening on port ${port}`))
