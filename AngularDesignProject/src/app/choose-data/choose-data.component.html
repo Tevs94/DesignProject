@@ -1,3 +1,11 @@
-<p>
-  choose-data works!
-</p>
+<div *ngIf="userService.isLoggedIn()">
+  <p>
+    Choose a Sensor:
+  </p>
+  <select [(ngModel)]="selectedSensorID">
+    <option *ngFor="let sensor of sensorList" [value]="sensor.id">{{sensor.name}}</option>
+  </select><br>
+  <button (click)="displaySensorData()">Get Sensor Data</button><br>
+  <p>{{sensorDescription}}</p>
+  <div id="graph" style="height: 300px; width: 100%;"></div>
+</div>

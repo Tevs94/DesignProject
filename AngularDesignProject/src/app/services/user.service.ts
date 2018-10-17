@@ -14,7 +14,9 @@ export class UserService {
   constructor(private http: HttpClient) {
     this.currentUser = null;
   }
-
+  isLoggedIn() {
+    return this.currentUser != null;
+  }
   Login(username, password) {
     const body = `username=${username}&password=${password}`;
     const options = {headers: new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded')};
@@ -24,7 +26,7 @@ export class UserService {
 
   CreateUser(username: String, password: String, permissions: Array<Permission>) {
     if (this.currentUser.permissions.includes(Permission.addUser)) {
-      const newUser = new User(username, password, permissions);
+      const newUser = new User(1, username, password, permissions);
       // Need to send this to the database
     }
   }

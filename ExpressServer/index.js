@@ -35,7 +35,7 @@ const influxClient = new influx.InfluxDB({
 //RESTful API
 app.get('/api/user/:id', function( req, res)  {
     let user = null
-    const userQuery = `SELECT users.username, users.password FROM users
+    const userQuery = `SELECT users.id, users.username, users.password FROM users
                        WHERE users.id = ${req.params.id}`
     con.query(userQuery, function (err, result, fields) {
         if (err) throw err
@@ -54,20 +54,21 @@ app.get('/api/user/:id', function( req, res)  {
         res.send(JSON.stringify(user))
     });
 })
+
+
 app.post('/api/login', function( req, res)  {
     let username = req.body.username
-    console.log(username)
     let password = req.body.password
     const userQuery = `SELECT users.id, users.username, users.password FROM users
                        WHERE users.username = "${username}"`
     con.query(userQuery, function (err, result, fields) {
         if (err) throw err
         if (result[0] == null) {
-            res.send(JSON.stringify({Error:"Username not found"}))
+            res.send(JSON.stringify({errors:"Username not found"}))
         }else {
             let user = { "username":result[0].username, "password":result[0].password }
             if (user.password != password) {
-                res.send(JSON.stringify({Error:"Incorrect Password"}))
+                res.send(JSON.stringify({errors:"Incorrect Password"}))
             } else {
                 let userID = result[0].id
                 const permissionsQuery = `SELECT permissionID FROM userpermissions
@@ -80,31 +81,46 @@ app.post('/api/login', function( req, res)  {
                     }
                     user["permissions"] = permissionsArray
                     res.send(JSON.stringify(user))
-                });
+                })
             }
 
         }
 
-    });
-
+    })
 })
 
-app.get('/api/data', function( req, res) {
+app.get('/api/sensors', function(req,res) {
+    const sensorQuery = `SELECT sensors.id, sensors.name FROM sensors`
+    con.query(sensorQuery, function (err, result, fields) {
+        if (err) throw err
+        let response = {data: [], errors: [err]}
+        for (let x in result) {
+            response.data.push({id: result[x].id, name: result[x].name})
+        }
+        res.send(JSON.stringify(response))
+    })
+})
+app.get('/api/sensorDescriptions/:id', function(req,res) {
+    const descriptionQuery = `SELECT buildingDescription FROM sensorDescriptions WHERE sensorID = ${req.params.id}`
+    con.query(descriptionQuery, function (err, result, fields) {
+        if (err) throw err
+        let response = {data: null, errors: [err]}
+        response.data = {buildingDescription: result[0].buildingDescription}
+        res.send(JSON.stringify(response))
+    })
+})
 
-    const sensorID = req.query.sensorID
-    const startTime = req.query.startTime //startTime and endTime in nanoseconds
-    const endTime = req.query.endTime
-    influxClient.query(`
-    SELECT * FROM energyData
-    WHERE sensorID = '${sensorID}'
-    AND time >= ${startTime}
-    AND time <= ${endTime}
-    `).then(result => {
+app.get('/api/sensorData/:id', function( req, res) {
+    const sensorID = req.params.id
+    const startTime = parseInt(req.query.startTime) //startTime and endTime in nanoseconds
+    const endTime = parseInt(req.query.endTime)
+    const dataQuery = `SELECT * FROM energyData WHERE sensorID='${sensorID}' AND time >= ${startTime} AND time <= ${endTime}`
+    influxClient.query(dataQuery).then(result => {
         let response = {data: [], errors: []}
         for (let k in result) {
             if (result[k].time != undefined)
                 response.data.push({
-                    sensorID: result[k].sensorID,
+                    sensorID: parseInt(result[k].sensorID),
                     sensorName: result[k].sensorName,
                     time: result[k].time.getNanoTime(),
                     kVA: result[k].kVA,
@@ -112,6 +128,7 @@ app.get('/api/data', function( req, res) {
                     kWh: result[k].kWh,
                 })
         }
+        console.log(response)
         res.send(JSON.stringify(response))
     }).catch(error => console.log("ERROR:" + error))
 })

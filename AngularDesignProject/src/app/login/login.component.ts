@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService} from '../services/user.service';
 import {User} from "../shared/models/user";
+import Any = jasmine.Any;
 
 @Component({
   selector: 'app-login',
@@ -9,7 +10,7 @@ import {User} from "../shared/models/user";
 })
 export class LoginComponent {
 
-  constructor(private userService: UserService) { }
+  constructor(public userService: UserService) { }
   username = '';
   password = '';
   isLoggedIn = false;
@@ -17,11 +18,10 @@ export class LoginComponent {
   login() {
     try {
       this.userService.Login(this.username, this.password).subscribe((response: Any) => {
-        if (response[Error] != null) {
-          console.log(response.Error);
+        if (response.errors != null) {
+          console.log(response.errors);
         } else {
-          this.userService.currentUser = new User(response.username, response.password, response.permissions);
-          this.userService.currentUser.id = response.id;
+          this.userService.currentUser = new User(response.id, response.username, response.password, response.permissions);
           this.loggedInText = 'Logged in as ' + this.userService.currentUser.username;
           this.isLoggedIn = true;
         }
