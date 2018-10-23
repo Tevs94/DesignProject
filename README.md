@@ -34,3 +34,5 @@ because there is a timeout on the queries and you are doing many at once
 To run the server api, go to express server folder and run command nodemon index.js (nodemon is required) or just run the script normally with node.
 
 TO run the front end, navigate ot angular design folder and run ng serve
+
+Note if you get any errors related to jasmine, just remove the import in the file that has the error, it should run fine
