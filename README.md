@@ -31,3 +31,6 @@ The queries were automated using the excel formula:
 copy the queries column then right click in the CLI to run all the queries. The CLI may need to be restarted 
 because there is a timeout on the queries and you are doing many at once
 
+To run the server api, go to express server folder and run command nodemon index.js (nodemon is required) or just run the script normally with node.
+
+TO run the front end, navigate ot angular design folder and run ng serve
